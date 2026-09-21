@@ -1,5 +1,5 @@
 {
-  "filename": "SC_2023.tif",
+  "filename": "China_Soil_Retention_Service_2023_1km.tif",
   "bytes": 48343873,
   "sha256": "f073637bae3144fee5a9931d7c9b1feecc48b992a3b6c9fb8e695aac35a64996",
   "crs": "PROJCS[\"Albers_Conic_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",0],PARAMETER[\"longitude_of_center\",105],PARAMETER[\"standard_parallel_1\",25],PARAMETER[\"standard_parallel_2\",47],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
@@ -60,5 +60,7 @@
   "institution": "Capital Normal University",
   "spatial_scope": "China, as described in the product report; valid spatial coverage is defined by the raster mask.",
   "band_description": "Annual soil retention per unit area",
-  "inspection_date": "2026-09-21"
+  "inspection_date": "2026-09-21",
+  "original_filename": "SC_2023.tif",
+  "filename_note": "Renamed for distribution; file bytes and SHA-256 are unchanged."
 }

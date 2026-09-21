@@ -21,7 +21,7 @@
 | 空间分辨率 | 1000 m × 1000 m |
 | 变量及单位 | 年土壤保持量（单位面积），t/(ha·a) |
 | 数据格式 | GeoTIFF |
-| 数据文件 | `SC_2023.tif` |
+| 数据文件 | `China_Soil_Retention_Service_2023_1km.tif` |
 | 文件大小 | 48,343,873字节，约46.10 MiB |
 | 波段 / 数据类型 | 单波段 / Float32 |
 | 栅格尺寸 | 4833列 × 5515行 |
@@ -39,9 +39,9 @@
 
 ## 数据获取
 
-请在本仓库的 [**Releases**](https://github.com/Hwx0513/ChinaSoilRetention-1km-2023/releases) 页面下载 `SC_2023.tif` 和 `SHA256SUMS.txt`。数据文件保持原始内容，未进行重投影、重采样或数值修改。仓库的“Download ZIP”只包含说明、元数据和配图，不包含全国GeoTIFF。
+请在本仓库的 [**Releases**](https://github.com/Hwx0513/ChinaSoilRetention-1km-2023/releases) 页面下载 `China_Soil_Retention_Service_2023_1km.tif` 和 `SHA256SUMS.txt`。数据文件保持原始内容，未进行重投影、重采样或数值修改。仓库的“Download ZIP”只包含说明、元数据和配图，不包含全国GeoTIFF。
 
-下载后可使用 `sha256sum SC_2023.tif`（Linux/macOS）或 `Get-FileHash SC_2023.tif -Algorithm SHA256`（PowerShell）与校验文件核对。
+下载后可使用 `sha256sum China_Soil_Retention_Service_2023_1km.tif`（Linux/macOS）或 `Get-FileHash China_Soil_Retention_Service_2023_1km.tif -Algorithm SHA256`（PowerShell）与校验文件核对。
 
 ## 技术方法
 
@@ -71,14 +71,14 @@ RMSE对应侵蚀输沙模拟验证，不是土壤保持栅格逐像元的直接�
 
 ![2023年中国1 km土壤保持服务空间分布](figures/soil-retention-2023.png)
 
-配图来自课题组提供的成果图，仅供浏览。定量分析请读取`SC_2023.tif`，不要从配图颜色反推数值。
+配图来自课题组提供的成果图，仅供浏览。定量分析请读取`China_Soil_Retention_Service_2023_1km.tif`，不要从配图颜色反推数值。
 
 ## 读取数据
 
 可使用支持GeoTIFF的GIS软件打开文件，或安装Python的`rasterio`后运行：
 
 ```bash
-python scripts/read_geotiff.py /path/to/SC_2023.tif
+python scripts/read_geotiff.py /path/to/China_Soil_Retention_Service_2023_1km.tif
 ```
 
 示例脚本读取内嵌CRS并排除NoData，输出元数据和有效值域，不改变数据。

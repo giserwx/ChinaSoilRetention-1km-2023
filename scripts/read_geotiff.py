@@ -3,7 +3,7 @@ import argparse
 import rasterio
 
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument("path", help="Path to SC_2023.tif")
+parser.add_argument("path", help="Path to China_Soil_Retention_Service_2023_1km.tif")
 args = parser.parse_args()
 with rasterio.open(args.path) as ds:
     values = ds.read(1, masked=True)

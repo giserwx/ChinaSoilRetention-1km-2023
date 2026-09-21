@@ -21,7 +21,7 @@ It is the soil retention component of the task-book deliverable for a national g
 | Spatial resolution | 1000 m × 1000 m |
 | Variable and unit | Annual soil retention per unit area, t/(ha·a) (tonnes per hectare per year) |
 | Format | GeoTIFF |
-| File | `SC_2023.tif` |
+| File | `China_Soil_Retention_Service_2023_1km.tif` |
 | File size | 48,343,873 bytes (approximately 46.10 MiB) |
 | Bands / data type | 1 / Float32 |
 | Dimensions | 4833 columns × 5515 rows |
@@ -39,9 +39,9 @@ Spatial metadata, NoData and the valid range were read and checked directly from
 
 ## Download
 
-Download `SC_2023.tif` and `SHA256SUMS.txt` from this repository's [**Releases**](https://github.com/Hwx0513/ChinaSoilRetention-1km-2023/releases) page. The original raster bytes are preserved without reprojection, resampling or numerical changes. The repository's “Download ZIP” contains documentation, metadata and figures, but not the national GeoTIFF.
+Download `China_Soil_Retention_Service_2023_1km.tif` and `SHA256SUMS.txt` from this repository's [**Releases**](https://github.com/Hwx0513/ChinaSoilRetention-1km-2023/releases) page. The original raster bytes are preserved without reprojection, resampling or numerical changes. The repository's “Download ZIP” contains documentation, metadata and figures, but not the national GeoTIFF.
 
-Verify the download against the checksum file with `sha256sum SC_2023.tif` (Linux/macOS) or `Get-FileHash SC_2023.tif -Algorithm SHA256` (PowerShell).
+Verify the download against the checksum file with `sha256sum China_Soil_Retention_Service_2023_1km.tif` (Linux/macOS) or `Get-FileHash China_Soil_Retention_Service_2023_1km.tif -Algorithm SHA256` (PowerShell).
 
 ## Method
 
@@ -71,14 +71,14 @@ The RMSE evaluates erosion/sediment simulations; it is not a direct pixel-level 
 
 ![Soil retention in China in 2023 (research team's original map)](figures/soil-retention-2023.png)
 
-This supplied map is for visual reference. Use `SC_2023.tif` for numerical analysis rather than inferring values from map colours.
+This supplied map is for visual reference. Use `China_Soil_Retention_Service_2023_1km.tif` for numerical analysis rather than inferring values from map colours.
 
 ## Reading the data
 
 Open the GeoTIFF in compatible GIS software, or install Python's `rasterio` and run:
 
 ```bash
-python scripts/read_geotiff.py /path/to/SC_2023.tif
+python scripts/read_geotiff.py /path/to/China_Soil_Retention_Service_2023_1km.tif
 ```
 
 The example reads the embedded CRS, excludes NoData and prints metadata and the valid range without modifying the raster.
