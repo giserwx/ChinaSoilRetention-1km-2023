@@ -37,7 +37,7 @@
 
 ## 数据获取
 
-请在本仓库的 [**Releases**](https://github.com/Hwx0513/ChinaSoilRetention-1km-2023/releases) 页面下载 `China_Soil_Retention_Service_2023_1km.tif` 和 `SHA256SUMS.txt`。数据文件保持原始内容，未进行重投影、重采样或数值修改。仓库的“Download ZIP”只包含说明、元数据和配图，不包含全国GeoTIFF。
+请在本仓库的 [**Releases**](https://github.com/giserwx/ChinaSoilRetention-1km-2023/releases) 页面下载 `China_Soil_Retention_Service_2023_1km.tif` 和 `SHA256SUMS.txt`。数据文件保持原始内容，未进行重投影、重采样或数值修改。仓库的“Download ZIP”只包含说明、元数据和配图，不包含全国GeoTIFF。
 
 下载后可使用 `sha256sum China_Soil_Retention_Service_2023_1km.tif`（Linux/macOS）或 `Get-FileHash China_Soil_Retention_Service_2023_1km.tif -Algorithm SHA256`（PowerShell）与校验文件核对。
 

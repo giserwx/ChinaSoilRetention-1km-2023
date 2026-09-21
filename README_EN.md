@@ -37,7 +37,7 @@ The spatial reference, dimensions, NoData value and valid range were obtained by
 
 ## Download
 
-Download `China_Soil_Retention_Service_2023_1km.tif` and `SHA256SUMS.txt` from this repository's [**Releases**](https://github.com/Hwx0513/ChinaSoilRetention-1km-2023/releases) page. The original raster bytes are preserved without reprojection, resampling or numerical changes. The repository's “Download ZIP” contains documentation, metadata and figures, but not the national GeoTIFF.
+Download `China_Soil_Retention_Service_2023_1km.tif` and `SHA256SUMS.txt` from this repository's [**Releases**](https://github.com/giserwx/ChinaSoilRetention-1km-2023/releases) page. The original raster bytes are preserved without reprojection, resampling or numerical changes. The repository's “Download ZIP” contains documentation, metadata and figures, but not the national GeoTIFF.
 
 Verify the download against the checksum file with `sha256sum China_Soil_Retention_Service_2023_1km.tif` (Linux/macOS) or `Get-FileHash China_Soil_Retention_Service_2023_1km.tif -Algorithm SHA256` (PowerShell).
 
