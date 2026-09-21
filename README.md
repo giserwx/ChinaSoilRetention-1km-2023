@@ -94,7 +94,3 @@ Zhao, L., Hu, Z., Wang, M., Liu, X., Hou, W., Wang, Y., Li, S., & Wang, J. (2025
 | --- | --- |
 | 课题负责人：Dr. Zhuowei Hu（胡卓玮） | [huzhuowei@cnu.edu.cn](mailto:huzhuowei@cnu.edu.cn) |
 | 技术联系人：Tianao Han | [2250902106@cnu.edu.cn](mailto:2250902106@cnu.edu.cn) |
-
-## 下载统计
-
-数据文件通过Release附件共享，附件下载次数可以通过[GitHub Releases API](https://docs.github.com/en/rest/releases/releases)中的`download_count`查看。统计时仅计入GeoTIFF附件，保留统计日期与版本；该次数不是独立用户数，也不等同于科研使用次数。具体操作见[数据下载说明](data/README.md)。
