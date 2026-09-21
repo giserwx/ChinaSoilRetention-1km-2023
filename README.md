@@ -10,8 +10,6 @@
 
 数据集提供2023年中国全国尺度、1 km网格的年土壤保持量评估结果，**可以用于**全国及区域尺度土壤保持服务空间分布分析、生态系统服务综合评估，以及生态保护与修复相关研究；也可以结合研究区资料，为水土流失重点防治区识别、坡耕地治理布局、流域生态保护补偿及水土保持工程成效评估等研究提供基础数据。
 
-本数据集是课题任务书中“2023年全国尺度生态质量与生态服务评估网格化数据集1套”的土壤保持服务组成部分，对应全国尺度网格化分辨率不低于1 km × 1 km的指标。它不代表该套数据集的全部生态质量与生态服务产品。
-
 ## 基本信息
 
 | 项目 | 内容 |
@@ -27,7 +25,7 @@
 | 栅格尺寸 | 4833列 × 5515行 |
 | 坐标参考系统 | WGS 84基准的自定义Albers等积圆锥投影，坐标单位为米 |
 | 投影参数 | 中央经线105°；原点纬度0°；标准纬线25°、47°；假东、假北均为0 m |
-| EPSG | 未识别出与完整投影匹配的EPSG代码；请使用内嵌CRS或[完整WKT](metadata/crs.wkt) |
+| XY坐标系 | Albers_Conic_Equal_Area |
 | NoData | `-3.4028230607370965e+38` |
 | 有效像元值域 | 0–34316.43359375 t/(ha·a) |
 | 有效像元数 | 9,526,506 |
@@ -65,7 +63,6 @@
 | 蒙特卡洛模拟 | 优化后土壤保持量变异系数（CV）的空间汇总值为0.206 |
 | 相对不确定性变化 | 在报告设定的输入与参数扰动条件下，较优化前降低46.19% |
 
-RMSE对应侵蚀输沙模拟验证，不是土壤保持栅格逐像元的直接误差；其单位t/(km²·a)与本数据单位t/(ha·a)不同。单年度数据本身不能支持年际变化或工程实施前后效果的独立判断。开展具体应用时，应结合当地资料、研究尺度及其他年份数据，并排除NoData。
 
 ## 空间分布示意
 
@@ -81,21 +78,15 @@ RMSE对应侵蚀输沙模拟验证，不是土壤保持栅格逐像元的直接�
 python scripts/read_geotiff.py /path/to/China_Soil_Retention_Service_2023_1km.tif
 ```
 
-示例脚本读取内嵌CRS并排除NoData，输出元数据和有效值域，不改变数据。
 
 ## 相关研究论文
 
 Zhao, L., Hu, Z., Wang, M., Liu, X., Hou, W., Wang, Y., Li, S., & Wang, J. (2025). Effects of Spatial Statistical Units on the Zoning of Ecosystem Soil Retention Services: A Case Study of the Loess Plateau. *Land Degradation & Development*. https://doi.org/10.1002/ldr.70171
 
-该论文研究黄土高原土壤保持服务分区及空间统计单元的影响，是本课题的相关研究论文，不将其表述为全国2023年数据集的专门数据论文。
-
 ## 数据使用声明
 
 我们向科研群体提供数据产品，希望通过数据传播促进科学进步。如果您计划在论文或报告中使用本数据，请在研究早期告知我们，并确保您的研究与我们目前基于该数据产品开展的工作没有显著重叠。此外，如果本数据对您的研究至关重要，或某项重要结果或发现依赖于本数据，共同署名可能是适当的。请在论文投稿前充分提前告知您的分析和发表计划，给予我们阅读稿件并作出实质性学术贡献的机会，并在适当情况下邀请共同署名。联系人：Dr. Zhuowei Hu（huzhuowei@cnu.edu.cn）。
 
-英文原文：
-
-We make our data products available to the research community as we believe that the dissemination of our data will lead to advancement in science. If you plan to use our data in a manuscript or presentation, we request that you inform us at an early stage of your work. You should ensure that your research does not significantly overlap with what we are currently working on with this product. In addition, if our data are essential to your work, or if an important result or finding depends on our data, co-authorship may be appropriate. You should inform us of your analysis and publication plans well in advance of the submission of a paper, give us an opportunity to read and intellectually contribute to the manuscript, and, if appropriate, offer co-authorship. Contact: Dr. Zhuowei Hu (huzhuowei@cnu.edu.cn).
 
 ## 联系方式
 
