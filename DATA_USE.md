@@ -1,0 +1,5 @@
+# 数据使用声明 / Data use statement
+
+我们向科研群体提供数据产品，希望通过数据传播促进科学进步。如果您计划在论文或报告中使用本数据，请在研究早期告知我们，并确保您的研究与我们目前基于该数据产品开展的工作没有显著重叠。此外，如果本数据对您的研究至关重要，或某项重要结果或发现依赖于本数据，共同署名可能是适当的。请在论文投稿前充分提前告知您的分析和发表计划，给予我们阅读稿件并作出实质性学术贡献的机会，并在适当情况下邀请共同署名。联系人：Dr. Zhuowei Hu（huzhuowei@cnu.edu.cn）。
+
+We make our data products available to the research community as we believe that the dissemination of our data will lead to advancement in science. If you plan to use our data in a manuscript or presentation, we request that you inform us at an early stage of your work. You should ensure that your research does not significantly overlap with what we are currently working on with this product. In addition, if our data are essential to your work, or if an important result or finding depends on our data, co-authorship may be appropriate. You should inform us of your analysis and publication plans well in advance of the submission of a paper, give us an opportunity to read and intellectually contribute to the manuscript, and, if appropriate, offer co-authorship. Contact: Dr. Zhuowei Hu (huzhuowei@cnu.edu.cn).
