@@ -92,5 +92,5 @@ Zhao, L., Hu, Z., Wang, M., Liu, X., Hou, W., Wang, Y., Li, S., & Wang, J. (2025
 
 | 联系人 | 邮箱 |
 | --- | --- |
-| 课题负责人：Dr. Zhuowei Hu（胡卓玮） | [huzhuowei@cnu.edu.cn](mailto:huzhuowei@cnu.edu.cn) |
-| 技术联系人：Tianao Han | [2250902106@cnu.edu.cn](mailto:2250902106@cnu.edu.cn) |
+| 课题负责人：胡卓玮 | [huzhuowei@cnu.edu.cn](mailto:huzhuowei@cnu.edu.cn) |
+| 技术联系人：韩天傲 | [2250902106@cnu.edu.cn](mailto:2250902106@cnu.edu.cn) |
