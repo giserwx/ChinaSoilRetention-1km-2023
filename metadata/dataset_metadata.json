@@ -1,15 +1,15 @@
 {
   "filename": "China_Soil_Retention_Service_2023_1km.tif",
-  "bytes": 48343873,
-  "sha256": "f073637bae3144fee5a9931d7c9b1feecc48b992a3b6c9fb8e695aac35a64996",
-  "crs": "PROJCS[\"Albers_Conic_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",0],PARAMETER[\"longitude_of_center\",105],PARAMETER[\"standard_parallel_1\",25],PARAMETER[\"standard_parallel_2\",47],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
-  "wkt": "PROJCS[\"Albers_Conic_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",0],PARAMETER[\"longitude_of_center\",105],PARAMETER[\"standard_parallel_1\",25],PARAMETER[\"standard_parallel_2\",47],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "bytes": 31282988,
+  "sha256": "cc509321683eb8d80a69efa69afa33caf461be8107f9275cd27c32cd690bba7b",
+  "crs": "PROJCS[\"unknown\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",0],PARAMETER[\"longitude_of_center\",105],PARAMETER[\"standard_parallel_1\",25],PARAMETER[\"standard_parallel_2\",47],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "wkt": "PROJCS[\"unknown\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",0],PARAMETER[\"longitude_of_center\",105],PARAMETER[\"standard_parallel_1\",25],PARAMETER[\"standard_parallel_2\",47],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
   "epsg": null,
   "width": 4833,
   "height": 5515,
   "count": 1,
   "dtype": "float32",
-  "nodata": -3.4028230607370965e+38,
+  "nodata": -9999.0,
   "resolution": [
     1000.0,
     1000.0
@@ -32,24 +32,32 @@
     1.0
   ],
   "tags": {
-    "AREA_OR_POINT": "Area"
+    "AREA_OR_POINT": "Area",
+    "C": "new",
+    "formula": "R*K*L*S*(1-C*P)",
+    "mask_scope": "six_new_factors",
+    "no_data_rule": "K and R_old: zero inside reference valid domain",
+    "P": "new",
+    "R": "new",
+    "reference": "E:\\soil_conversation\\投影坐标系\\China_mask_1kmV4.tif",
+    "year": "2023"
   },
   "band_tags": {
-    "STATISTICS_COVARIANCES": "459391.5226286322",
-    "STATISTICS_MAXIMUM": "34316.43359375",
-    "STATISTICS_MEAN": "231.35120707283",
+    "STATISTICS_COVARIANCES": "338644.1685333575",
+    "STATISTICS_MAXIMUM": "22646.30078125",
+    "STATISTICS_MEAN": "199.38486992215",
     "STATISTICS_MINIMUM": "0",
     "STATISTICS_SKIPFACTORX": "1",
     "STATISTICS_SKIPFACTORY": "1",
-    "STATISTICS_STDDEV": "677.78427440347"
+    "STATISTICS_STDDEV": "581.93141222429"
   },
   "units": [
     null
   ],
-  "compression": "Compression.lzw",
-  "valid_cells": 9526506,
+  "compression": "Compression.deflate",
+  "valid_cells": 9438190,
   "minimum": 0.0,
-  "maximum": 34316.43359375,
+  "maximum": 22646.30078125,
   "negative_cells": 0,
   "dataset_name": "China 1-km Gridded Soil Retention Service Dataset for 2023",
   "year": 2023,
@@ -60,7 +68,7 @@
   "institution": "Capital Normal University",
   "spatial_scope": "China, as described in the product report; valid spatial coverage is defined by the raster mask.",
   "band_description": "Annual soil retention per unit area",
-  "inspection_date": "2026-09-21",
-  "original_filename": "SC_2023.tif",
-  "filename_note": "Renamed for distribution; file bytes and SHA-256 are unchanged."
+  "inspection_date": "2026-10-10",
+  "original_filename": "China_Soil_Retention_Service_2023_1km.tif",
+  "filename_note": "Distributed without modification of the supplied GeoTIFF bytes."
 }

@@ -20,15 +20,15 @@ It provides annual soil retention estimates for China in 2023 on a 1-km grid. Th
 | Variable and unit | Annual soil retention per unit area, t/(ha·a) (tonnes per hectare per year) |
 | Format | GeoTIFF |
 | File | `China_Soil_Retention_Service_2023_1km.tif` |
-| File size | 48,343,873 bytes (approximately 46.10 MiB) |
+| File size | 31,282,988 bytes (approximately 29.83 MiB) |
 | Bands / data type | 1 / Float32 |
 | Dimensions | 4833 columns × 5515 rows |
 | CRS | Custom Albers Equal Area Conic projection on the WGS 84 datum; coordinates in metres |
 | Projection parameters | Central meridian 105°; latitude of origin 0°; standard parallels 25° and 47°; false easting/northing 0 m |
 | XY coordinate system | Albers_Conic_Equal_Area |
-| NoData | `-3.4028230607370965e+38` |
+| NoData | `-9999.0` |
 | Valid range | 0–22646.3 t/(ha·a) |
-| Valid cells | 9,526,506 |
+| Valid cells | 9,438,190 |
 | Compression | LZW |
 | Producer | Capital Normal University |
 | Version | v1.0.0 |
