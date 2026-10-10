@@ -27,7 +27,7 @@ It provides annual soil retention estimates for China in 2023 on a 1-km grid. Th
 | Projection parameters | Central meridian 105°; latitude of origin 0°; standard parallels 25° and 47°; false easting/northing 0 m |
 | XY coordinate system | Albers_Conic_Equal_Area |
 | NoData | `-3.4028230607370965e+38` |
-| Valid range | 0–34316.43359375 t/(ha·a) |
+| Valid range | 0–22646.3 t/(ha·a) |
 | Valid cells | 9,526,506 |
 | Compression | LZW |
 | Producer | Capital Normal University |
@@ -59,9 +59,9 @@ The following results are internal evaluations reported in the research team's p
 | Evaluation | Reported result |
 | --- | --- |
 | Erosion/sediment simulation validation | Sediment observations from 21 hydrological stations |
-| Mean RMSE across selected stations | Reduced from 250.48 to 224.26 t/(km²·a), a 10.47% reduction |
-| Monte Carlo analysis | Spatially aggregated coefficient of variation (CV) of soil retention: 0.206 after optimization |
-| Relative uncertainty | Reduced by 46.19% under the input and parameter perturbations specified in the report |
+| Mean RMSE across selected stations | Reduced from 165.68 to 160.5 t/(km²·a), a 3.13% reduction |
+| Monte Carlo analysis |The spatial average of the coefficient of variation (CV) for optimized soil retention decreased from 0.867 to 0.614|
+| Relative uncertainty | Reduced by 29.22% under the input and parameter perturbations specified in the report |
 
 ## Spatial overview
 
