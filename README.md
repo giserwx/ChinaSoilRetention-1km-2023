@@ -68,7 +68,7 @@
 
 ![2023年中国1 km土壤保持服务空间分布](figures/soil-retention-2023.png)
 
-配图来自课题组提供的成果图，仅供浏览。定量分析请读取`China_Soil_Retention_Service_2023_1km.tif`，不要从配图颜色反推数值。
+配图来自课题组提供的成果图，仅供浏览。定量分析请读取`China_Soil_Retention_Service_2023_1km.tif`。
 
 ## 读取数据
 
